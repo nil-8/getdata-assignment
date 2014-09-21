@@ -21,6 +21,3 @@ The variable names are taken over from the file "features.txt", and are in fact 
 
 ### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 This is achieved using a split and a subsequent sapply command. The raw data is written to "tidy\_dataset.txt", the row names to "row\_names.txt" and the column names to "column\_names.txt"
-
-## Code book
-In the file "row\_names.txt" all different variables are listed, such as "tGravityAcc.mean...X". In the file "column\_names.txt" all combinations of subjects and activities are listed, e.g. "12.SITTING". The corresponding summarized data may be found in "tidy_dataset.txt". The units of the data is dimensionless with values between -1 and 1.
